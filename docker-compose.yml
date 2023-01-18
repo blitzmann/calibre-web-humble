@@ -7,7 +7,7 @@ services:
             - PUID=1000
             - PGID=1000
             - TZ=Europe/London
-            - DOCKER_MODS=ghcr.io/blitzmann/calibre-web-humble #optional
+            - DOCKER_MODS=blitzmann/calibre-web-humble #optional
             - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
         volumes:
             - I:\My Drive:/books
