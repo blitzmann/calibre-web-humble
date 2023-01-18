@@ -1,4 +1,5 @@
 FROM scratch
 
-# copy local files
-COPY root/ /
+LABEL maintainer="blitzmann"
+
+COPY root/ /app/calibre-web/cps/
